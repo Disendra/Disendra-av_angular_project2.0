@@ -1,10 +1,10 @@
-
 .about p {
     font-size: 15px;
 }
+
 @media (min-width: 1200px) { 
     .custom_Image {
-      width: 76%;
+      width: 80%;
     }
     }
     

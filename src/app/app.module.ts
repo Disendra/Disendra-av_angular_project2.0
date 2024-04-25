@@ -9,7 +9,6 @@ import { HeaderComponent } from './home-page/header/header.component';
 import { AboutComponent } from './home-page/about/about.component';
 import { CountsComponent } from './home-page/counts/counts.component';
 import { ValuesComponent } from './home-page/values/values.component';
-import { ServicesComponent } from './services/services.component';
 import { TESTIMONIALSComponent } from './home-page/testimonials/testimonials.component';
 import { ClientsComponent } from './home-page/clients/clients.component';
 import { ContactComponent } from './home-page/contact/contact.component';
@@ -51,6 +50,7 @@ import { MatListModule } from '@angular/material/list';
 import {MatCheckboxModule} from '@angular/material/checkbox';
 import { RecaptchaFormsModule, RecaptchaModule } from 'ng-recaptcha';
 import { QRCodeModule } from 'angularx-qrcode';
+import { ServicesComponent } from './home-page/services/services.component';
 
 @NgModule({
   declarations: [
@@ -60,7 +60,6 @@ import { QRCodeModule } from 'angularx-qrcode';
     AboutComponent,
     CountsComponent,
     ValuesComponent,
-    ServicesComponent,
     HeroComponent,
     TESTIMONIALSComponent,
     ClientsComponent,
@@ -77,6 +76,7 @@ import { QRCodeModule } from 'angularx-qrcode';
     BtuCalculatorComponent,
     AvDirectoryComponent,
     FeedbackPageComponent,
+    ServicesComponent,
     SpinnerComponent,
     FeedComponent,
     AdminPageComponent,

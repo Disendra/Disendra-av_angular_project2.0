@@ -623,7 +623,7 @@ section {
 --------------------------------------------------------------*/
 .values .box {
   padding: 30px;
-  box-shadow: 0px 0 5px rgba(1, 41, 112, 0.08);
+  box-shadow: 4px 4px 10px #d1d9e6, -4px -4px 10px #f9f9f9;
   text-align: center;
   transition: 0.3s;
   height: 100%;
@@ -660,10 +660,11 @@ section {
 .counts .count-box {
   display: flex;
   align-items: center;
-  padding: 30px;
+  padding: 10px;
+  margin-bottom: 5px;
   width: 100%;
   background: #fff;
-  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+  box-shadow: 4px 4px 10px #d1d9e6, -4px -4px 10px #f9f9f9;
 }
 
 .counts .count-box i {
@@ -816,7 +817,7 @@ section {
 # Services
 --------------------------------------------------------------*/
 .services .service-box {
-  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+  box-shadow: 4px 4px 10px #d1d9e6, -4px -4px 10px #f9f9f9;
   height: 100%;
   padding: 60px 30px;
   text-align: center;
@@ -855,7 +856,7 @@ section {
   font-size: 18px;
 }
 
-.services .service-box.blue {
+/* .services .service-box.blue {
   border-bottom: 3px solid #2db6fa;
 }
 
@@ -955,9 +956,9 @@ section {
 
 .services .service-box.pink:hover {
   background: #f51f9c;
-}
+} */
 
-.services .service-box:hover h3,
+/* .services .service-box:hover h3,
 .services .service-box:hover p,
 .services .service-box:hover .read-more {
   color: #fff;
@@ -965,7 +966,7 @@ section {
 
 .services .service-box:hover .icon {
   background: #fff;
-}
+} */
 
 /*--------------------------------------------------------------
 # Pricing
@@ -1619,6 +1620,7 @@ section {
 # Contact
 --------------------------------------------------------------*/
 .contact .info-box {
+  box-shadow: 4px 4px 10px #d1d9e6, -4px -4px 10px #f9f9f9;
   color: #444444;
   background: #fafbff;
   padding: 30px;
@@ -1645,6 +1647,7 @@ section {
 }
 
 .contact .php-email-form {
+  box-shadow: 4px 4px 10px #d1d9e6, -4px -4px 10px #f9f9f9;
   background: #fafbff;
   padding: 30px;
   height: 100%;
@@ -2303,6 +2306,7 @@ section {
 }
 
 .footer .footer-top {
+  box-shadow: 4px 4px 10px #d1d9e6, -4px -4px 10px #f9f9f9;
   background: white url(../img/footer-bg.png) no-repeat right top;
   background-size: contain;
   border-top: 1px solid #e1ecff;

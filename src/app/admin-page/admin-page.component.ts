@@ -1,6 +1,5 @@
 import { Component, TemplateRef, ViewChild } from '@angular/core'
 import { FaServiceService } from '../services/fa-service.service'
-import Chart from 'chart.js/auto'
 import { UserServicesService } from '../services/user-services.service'
 import { PopupService } from '../services/popup.service'
 

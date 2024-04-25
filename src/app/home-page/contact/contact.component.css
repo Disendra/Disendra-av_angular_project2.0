@@ -1,0 +1,13 @@
+.info-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+  }
+  
+  .info-box p {
+    margin-bottom: 0; /* Remove bottom margin on paragraph */
+  }
+  
